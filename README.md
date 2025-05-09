@@ -55,7 +55,7 @@ A Microsoft Access solution to import, model, query, and report on student-loan 
 ### ▶️ How to Run
 
 1. Clone this repo.  
-2. Open `MOS19_AC_PROJ2_Student_Loans.accdb` in Access.  
+2. Open `Advising Project` in Access.  
 3. Review tables, queries, forms, and reports as per the instructions.  
 
 ---
@@ -65,7 +65,7 @@ A Microsoft Access solution to import, model, query, and report on student-loan 
 
 ---
 ![image](https://github.com/user-attachments/assets/5a989989-0c80-4973-b9bc-1e742e5cc414)
-![image](https://github.com/user-attachments/assets/d6f02c37-f5a2-4259-a67f-bd8bfd6be168)
+![image](https://github.com/user-attachments/assets/78e98a42-6317-4fa9-bb20-6ec6cef56deb)
 ![image](https://github.com/user-attachments/assets/da3ad0cf-4dbe-4242-8dc1-be32bc25a486)
 
 

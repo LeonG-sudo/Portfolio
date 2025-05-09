@@ -1,6 +1,6 @@
 # School Work Experience Portfolio
 
-# Student Loans Analytics — Access Database Project
+## Student Loans Analytics — Access Database Project
 
 **Quill Financial Services** | Academic Project (Aug 2019)
 
@@ -62,12 +62,12 @@ A Microsoft Access solution to import, model, query, and report on student-loan 
 
 ### 📸 Screenshots
 
-<p float="left">
-  <img src="[screenshots/payment_query_result.png](https://github.com/user-attachments/assets/8b2b872b-a931-4b7f-9b89-d6c96e8a06c3)" width="200" /> 
-  <img src="[screenshots/loan_summary_report.png" width="200](https://github.com/user-attachments/assets/82e6c469-5ae5-4e87-bc32-9ae0f4ceed0a)" />
-</p>
 
 ---
+![image](https://github.com/user-attachments/assets/5a989989-0c80-4973-b9bc-1e742e5cc414)
+![image](https://github.com/user-attachments/assets/d6f02c37-f5a2-4259-a67f-bd8bfd6be168)
+![image](https://github.com/user-attachments/assets/da3ad0cf-4dbe-4242-8dc1-be32bc25a486)
+
 
 ### ⚡️ Key Takeaways
 

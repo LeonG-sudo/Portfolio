@@ -156,4 +156,52 @@ An Excel workbook demonstrating advanced formula and function skills to automate
 ## 🛠 Technologies & Functions
 
 - **Microsoft Excel 2016+**  
-- Key functions: `IF`, `SUM`, `MAX`, `MIN`, `AVERAGE`, `SUMIF`, `COUNTIF`, `AVERAGEIF`, `LEFT`, `RIGHT`, `MID`, `UPPER`, `LOWER`, `PROPER`  
+- Key functions: `IF`, `SUM`, `MAX`, `MIN`, `AVERAGE`, `SUMIF`, `COUNTIF`, `AVERAGEIF`, `LEFT`, `RIGHT`, `MID`, `UPPER`, `LOWER`, `PROPER`
+
+# SQL Project One 
+
+# Movie Rental Database — SQL Fundamentals Project
+
+**Personal Portfolio Project** | Entry-Level Analytics
+
+A self-contained SQL project demonstrating core database design, data loading, CRUD operations, joins, aggregations, subqueries, and basic window functions.
+
+---
+
+## 🚀 Project Overview
+
+- **Goal:** Build and explore a “Movie Rental” database for a fictitious video store.
+- **Key Skills:**  
+  - Schema design (tables, PK/FK constraints)  
+  - Data loading (INSERT or bulk load)  
+  - CRUD operations (SELECT, INSERT, UPDATE, DELETE)  
+  - Joins & filters  
+  - Aggregations (`GROUP BY`, `COUNT`, `AVG`)  
+  - Subqueries & basic window functions  
+
+- **schema.sql**  
+  - `CREATE TABLE` statements for `customers`, `movies`, `rentals`, and `staff`  
+  - Primary keys, foreign keys, and appropriate data types  
+
+- **data-load.sql**  
+  - `INSERT` scripts (or `COPY`/`LOAD DATA`) to populate each table with 20–50 sample rows  
+
+- **queries/**  
+  - **01-basic-selects.sql**: Examples of simple `SELECT` queries (e.g., customers joined last month)  
+  - **02-crud-examples.sql**: Demonstrates `INSERT`, `UPDATE`, `DELETE` operations  
+  - **03-joins-and-filters.sql**: Queries combining tables and applying filters (e.g., overdue rentals)  
+  - **04-aggregates.sql**: `GROUP BY` analyses (e.g., top 3 most-rented movies, average rental duration)  
+  - **05-subqueries-window.sql**:  
+    - Subquery: customers who rented every “Action” movie  
+    - (Optional) Window function: rank movies by rental count
+  
+---
+
+## 💾 Tech Stack & Tools
+
+- **Database:** SQL Server
+- **Client:** SQLQuery
+- **Version Control:** Git & GitHub  
+
+---
+

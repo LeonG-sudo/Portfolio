@@ -206,7 +206,7 @@ A self-contained SQL project demonstrating core database design, data loading, C
 # SQL Project Two
 ## E-Commerce Sales & Analytics — SQL Server Project
 
-A relational database for a fictitious online retailer, showcasing schema design, ETL, stored procedures, views, and analytical queries—all built in SQL Server and documented for reproducibility.
+A relational database for a fictitious online retailer, showcasing schema design, ETL, stored procedures, views, and analytical queries, which were all built in SQL Server and documented for reproducibility.
 
 ---
 

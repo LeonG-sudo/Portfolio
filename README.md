@@ -168,7 +168,7 @@ A self-contained SQL project demonstrating core database design, data loading, C
 
 ## 🚀 Project Overview
 
-- **Goal:** Build and explore a “Movie Rental” database for a fictitious video store.
+- **Goal:** Build and explore a “Movie Rental” database for a video store that does not exist.
 - **Key Skills:**  
   - Schema design (tables, PK/FK constraints)  
   - Data loading (INSERT or bulk load)  

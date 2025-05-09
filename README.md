@@ -2,7 +2,7 @@
 
 ## Student Loans Analytics — Access Database Project
 
-**Quill Financial Services** | Academic Project (Aug 2019)
+**Quill Financial Services** | Academic Project (Aug 2025)
 
 A Microsoft Access solution to import, model, query, and report on student-loan data for Quill Financial Services.
 
@@ -78,7 +78,7 @@ A Microsoft Access solution to import, model, query, and report on student-loan 
 
 ## Excel Project One
 
-**Quill Financial Services** | Academic Project (Apr 2023)
+**Quill Financial Services** | Academic Project (Apr 2025)
 
 An Excel workbook demonstrating advanced formula and function skills to automate inventory restocking logic, calculate costs, and parse text information for streamlined analysis.
 

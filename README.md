@@ -2,7 +2,7 @@
 
 ## Student Loans Analytics — Access Database Project
 
-**Quill Financial Services** | Academic Project (Aug 2025)
+**Quill Financial Services** | Academic Project (March 2025)
 
 A Microsoft Access solution to import, model, query, and report on student-loan data for Quill Financial Services.
 

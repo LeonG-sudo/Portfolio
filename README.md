@@ -160,7 +160,7 @@ An Excel workbook demonstrating advanced formula and function skills to automate
 
 # SQL Project One 
 
-# Movie Rental Database — SQL Fundamentals Project
+## Movie Rental Database — SQL Fundamentals Project
 
 A self-contained SQL project demonstrating core database design, data loading, CRUD operations, joins, aggregations, subqueries, and basic window functions.
 
@@ -202,4 +202,59 @@ A self-contained SQL project demonstrating core database design, data loading, C
 - **Version Control:** Git & GitHub  
 
 ---
+
+# SQL Project Two
+## E-Commerce Sales & Analytics — SQL Server Project
+
+**Personal Portfolio Project** | Intermediate SQL & T-SQL
+
+A relational database for a fictitious online retailer, showcasing schema design, ETL, stored procedures, views, and analytical queries—all built in SQL Server and documented for reproducibility.
+
+---
+
+## 🚀 Project Overview
+
+- **Goal:** Implement an end-to-end SQL Server solution to manage orders, inventory, customers, products and promotions, then generate operational and strategic reports.
+- **Core Skills:**  
+  - Schema design (tables, PK/FK, data types, indexes)  
+  - ETL via `BULK INSERT` and staging  
+  - T-SQL programming: stored procedures, triggers, user-defined functions, views  
+  - Query performance tuning (execution plans, index strategy)  
+  - Analytical reporting with window functions and CTEs
+ 
+## 📄 WorkFlow
+
+- **schema.sql**  
+  - Defines `Customers`, `Products`, `Orders`, `OrderItems`, `Inventory`, `Suppliers`, and `Promotions`  
+  - Sets primary/foreign keys, data types (`DECIMAL`, `DATE`, `VARCHAR`), and clustered/non-clustered indexes  
+
+- **data-load.sql**  
+  - Creates staging tables  
+  - Loads CSV exports using `BULK INSERT`  
+  - Cleans data via CTEs (trimming, type conversions)  
+
+- **tsql/**  
+  - **Stored Procedures:**  
+    - `usp_PlaceOrder` (inserts order, order items; adjusts inventory; applies promotions)  
+    - `usp_AdjustInventory` (adds or deducts stock; logs adjustments)  
+  - **User-Defined Function:**  
+    - `fn_CustomerLifetimeValue(@CustomerID)` returns cumulative spend  
+  - **View:**  
+    - `vw_TopSellingProducts` lists top 10 products by units sold last month  
+  - **Trigger:**  
+    - `trg_PreventNegativeStock` rolls back any inventory update that would drop stock below zero  
+
+- **queries/**  
+  - **operational.sql:** everyday operations queries (e.g., unfulfilled orders, low-stock items)  
+  - **analytics.sql:** business insights (monthly revenue, customer retention cohorts, promotion performance)  
+  - **performance.sql:** scripts to review execution plans and rebuild fragmented indexes
+
+---
+
+## 💾 Tech Stack
+
+- **Database:** Microsoft SQL Server 2017+  
+- **Client:** SQL Server Management Studio (SSMS)  
+- **Version Control:** Git & GitHub  
+
 

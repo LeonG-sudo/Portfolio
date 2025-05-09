@@ -6,3 +6,9 @@
 
 (not real numbers and data for this file)
 ![image](https://github.com/user-attachments/assets/8b2b872b-a931-4b7f-9b89-d6c96e8a06c3)
+
+Final Report created using the Report Wizard making sure to keep it print friendly
+![image](https://github.com/user-attachments/assets/82e6c469-5ae5-4e87-bc32-9ae0f4ceed0a)
+
+
+## Excel Project One

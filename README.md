@@ -1,4 +1,4 @@
-# School Work Experience Portfolio
+# Work Experience Portfolio
 
 ## Student Loans Analytics — Access Database Project
 

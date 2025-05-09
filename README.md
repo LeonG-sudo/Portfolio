@@ -77,3 +77,83 @@ A Microsoft Access solution to import, model, query, and report on student-loan 
 
 
 ## Excel Project One
+
+**Quill Financial Services** | Academic Project (Apr 2023)
+
+An Excel workbook demonstrating advanced formula and function skills to automate inventory restocking logic, calculate costs, and parse text information for streamlined analysis.
+
+---
+
+## 🚀 Project Overview
+
+- **Goal:** Build an Excel model to  
+  1. Flag low-stock items for reorder  
+  2. Compute per-line and total inventory costs  
+  3. Extract and standardize product codes via text functions  
+  4. Summarize key metrics with aggregate formulas  
+- **Data Source:**  
+  - `Functions.xlsx` (equipment inventory list)
+
+---
+
+## 💼 My Responsibilities
+
+1. **Logic & Conditional Testing**  
+   - In **F4**, used  
+     ```excel
+     =IF([@Stock]<15, "Order", "No Order")
+     ```  
+     to flag any item with stock below 15 for reorder; auto-filled through F62.
+
+2. **Inventory Cost Calculations**  
+   - In **G4**, set  
+     ```excel
+     =[@Quantity] * [@Cost_Each]
+     ```  
+     to calculate line-item cost; copied down to G62.  
+
+3. **Text Extraction & Formatting**  
+   - In **I4**, extracted the last 3 characters and capitalized them:  
+     ```excel
+     =PROPER(RIGHT([@ItemCode],3))
+     ```  
+   - In **J4**, took the first 2 characters as lowercase type codes:  
+     ```excel
+     =LOWER(LEFT([@ItemCode],2))
+     ```  
+   - In **K4**, grabbed the middle 4 characters as uppercase category codes:  
+     ```excel
+     =UPPER(MID([@ItemCode],3,4))
+     ```  
+   - Combined all parsed codes in **H4**:  
+     ```excel
+     =I4 & "-" & J4 & "-" & K4
+     ```
+
+4. **Aggregate & Conditional Summaries**  
+   - **Total Cost:**  
+     ```excel
+     =SUM(G4:G62)
+     ```  
+   - **Max/Min/Average Costs:**  
+     ```excel
+     =MAX(G4:G62), =MIN(G4:G62), =AVERAGE(G4:G62)
+     ```  
+   - **Order-Only Totals & Averages:**  
+     ```excel
+     =SUMIF(F4:F62,"Order",G4:G62)
+     =COUNTIF(F4:F62,"Order")
+     =AVERAGEIF(F4:F62,"Order",G4:G62)
+     ```
+
+5. **Workbook Polish & Best Practices**  
+   - Applied **Named Ranges** for inputs and outputs.  
+   - Auto-fitted all columns for readability.  
+   - Locked formula cells to prevent accidental edits.
+
+---
+
+## 🛠 Technologies & Functions
+
+- **Microsoft Excel 2016+**  
+- Key functions: `IF`, `SUM`, `MAX`, `MIN`, `AVERAGE`, `SUMIF`, `COUNTIF`, `AVERAGEIF`, `LEFT`, `RIGHT`, `MID`, `UPPER`, `LOWER`, `PROPER`  

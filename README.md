@@ -162,8 +162,6 @@ An Excel workbook demonstrating advanced formula and function skills to automate
 
 # Movie Rental Database — SQL Fundamentals Project
 
-**Personal Portfolio Project** | Entry-Level Analytics
-
 A self-contained SQL project demonstrating core database design, data loading, CRUD operations, joins, aggregations, subqueries, and basic window functions.
 
 ---
@@ -186,11 +184,11 @@ A self-contained SQL project demonstrating core database design, data loading, C
 - **data-load.sql**  
   - `INSERT` scripts (or `COPY`/`LOAD DATA`) to populate each table with 20–50 sample rows  
 
-- **queries/**  
-  - **01-basic-selects.sql**: Examples of simple `SELECT` queries (e.g., customers joined last month)  
+- **queries**  
+  - **01-basic-selects.sql**: Examples of simple `SELECT` queries (example: customers joined last month)  
   - **02-crud-examples.sql**: Demonstrates `INSERT`, `UPDATE`, `DELETE` operations  
-  - **03-joins-and-filters.sql**: Queries combining tables and applying filters (e.g., overdue rentals)  
-  - **04-aggregates.sql**: `GROUP BY` analyses (e.g., top 3 most-rented movies, average rental duration)  
+  - **03-joins-and-filters.sql**: Queries combining tables and applying filters (example: overdue rentals)  
+  - **04-aggregates.sql**: `GROUP BY` analyses (example: top 3 most-rented movies, average rental duration)  
   - **05-subqueries-window.sql**:  
     - Subquery: customers who rented every “Action” movie  
     - (Optional) Window function: rank movies by rental count
